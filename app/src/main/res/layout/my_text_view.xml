@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/my_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/id_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_item_id"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_template_text_view"
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <ToggleButton
+        android:id="@+id/is_complete_toggle"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:textOff="@string/x"
+        android:textOn=":)" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:textAllCaps="false" />
+
+</LinearLayout>
